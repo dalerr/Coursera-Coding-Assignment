@@ -15,7 +15,7 @@ h1 {
 p {padding: 30px 20px;}
 
 
-.labels {
+.label1 {
 	position:absolute;
 	top:0;
 	right: 0;
@@ -24,6 +24,28 @@ p {padding: 30px 20px;}
 	text-align: center;
 	border: 1px solid black;
 	font-size: 1.25em;
+}
+
+.label2 {
+  position:absolute;
+  top:0;
+  right: 0;
+  background-color: red;
+  width: 100px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 1.25em;
+}
+
+.label3 {
+  position:absolute;
+  top:0;
+  right: 0;
+  background-color: green;
+  width: 100px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 1.25em;
 }
 
 .col {
