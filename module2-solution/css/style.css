@@ -1,6 +1,7 @@
 
 * {
   box-sizing: border-box;
+  border-collapse: collapse;
   position: relative;
   font-family: Helvetica;
   font-size: 1em;
