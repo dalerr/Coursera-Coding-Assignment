@@ -16,37 +16,29 @@ h1 {
 p {padding: 30px 20px;}
 
 
-.label1 {
+.label {
 	position:absolute;
 	top:0;
 	right: 0;
-	background-color: #43A3C3;
 	width: 100px;
 	text-align: center;
 	border: 1px solid black;
 	font-size: 1.25em;
+  margin-right: -1px;
+  margin-top: -1px;
 }
 
-.label2 {
-  position:absolute;
-  top:0;
-  right: 0;
+
+div:nth-child(1) > .content > .label {
+  background-color: #43A3C3;
+}
+
+div:nth-child(2) > .content > .label {
   background-color: red;
-  width: 100px;
-  text-align: center;
-  border: 1px solid black;
-  font-size: 1.25em;
 }
 
-.label3 {
-  position:absolute;
-  top:0;
-  right: 0;
+div:nth-child(3) > .content > .label{
   background-color: green;
-  width: 100px;
-  text-align: center;
-  border: 1px solid black;
-  font-size: 1.25em;
 }
 
 .col {
